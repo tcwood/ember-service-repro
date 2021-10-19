@@ -4,9 +4,9 @@ This app is meant to reproduce an issue where multiple instances of services are
 
 The four syntaxes used are:
 1. @service() - rely on the variable name matching the service name
-2. @service('<service name>')
-3. @service('<addon/app name>$<service name>') - this syntax comes from the ember-holy-futuristic-template-namespacing-batman package
-4. @service('<addon/app name>@<service name>')
+2. @service('\<service name>')
+3. @service('<addon/app name>$\<service name>') - this syntax comes from the ember-holy-futuristic-template-namespacing-batman package
+4. @service('<addon/app name>@\<service name>')
 
 From these examples, it seems that 1/2 will create one shared instance of a service and 3/4 will create a separate shared instance of a service. The console.log in the constructor is also shown twice.
 
