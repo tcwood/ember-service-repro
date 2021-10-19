@@ -56,5 +56,8 @@
   },
   "ember": {
     "edition": "octane"
+  },
+  "dependencies": {
+    "ember-holy-futuristic-template-namespacing-batman": "^1.1.2"
   }
 }
